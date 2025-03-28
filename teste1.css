@@ -1,0 +1,61 @@
+div.center {
+    background-color: rgb(192, 70, 70);
+    padding: 50px;
+    align-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+button.testeBrilho {
+    /* background-color: antiquewhite; */
+    background-image: url(./Virikek.png);
+    color:brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: double;
+    border-width: 8px;
+    border-radius: 10px;
+    width: 8em;
+    height: 4em;
+    text-decoration: none;
+}
+
+button.testeBrilho a{
+    color: rgb(97, 12, 12);
+    text-decoration: none;
+    content:normal;
+}
+
+button.testeBrilho a:hover{
+    color: rgb(132, 0, 255);
+    content:normal;
+}
+
+button.testeBrilho a:hover::before{
+    content:normal;
+    background-color: black;
+}
+
+button.simplebtn {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 25px;
+    /* width: 12em;
+    height: 4em; */
+    padding: 10px 35px 15px 35px;
+    box-shadow: 3px 5px 0px 0px;
+}
+
+button.simplebtn a{
+    font-family: "Darumadrop One", sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+button.simplebtn:active{
+    box-shadow: 2px 2px;
+    transform: translate(2px, 2px);
+} 
